@@ -131,7 +131,6 @@ def station_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
 
@@ -192,7 +191,6 @@ def display_data(df):
                 print('thank you')
                 break
     
-
 def main():
     while True:
         city, month, day = get_filters()
@@ -212,3 +210,4 @@ def main():
 
 if __name__ == "__main__":
 	main() 
+
