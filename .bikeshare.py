@@ -32,7 +32,7 @@ def get_filters():
             break
         else:
             print('please enter correct month')
-            
+	
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     days= ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'all']
     while True:
