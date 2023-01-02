@@ -145,9 +145,9 @@ def user_stats(df,city):
         print(df['Gender'].value_counts().to_frame())
 
     # TO DO: Display earliest, most recent, and most common year of birth
-        print('the most common year of birth: ' ,int(df['Birth Year'].mode()[0]))
-        print('the most recent year of birth: ' ,int(df['Birth Year'].max()))
-        print('the earliest year of birth: ' ,int(df['Birth Year'].min()))
+        print('The most common year of birth: ' ,int(df['Birth Year'].mode()[0]))
+        print('The most recent year of birth: ' ,int(df['Birth Year'].max()))
+        print('The earliest year of birth: ' ,int(df['Birth Year'].min()))
     else:
         print('there is no data')
 
